@@ -1,0 +1,29 @@
+package mystrings;
+
+public class Stringdemo {
+
+	public static void main(String[] args) {
+	
+		String s="Hello";
+		System.out.println("Object id:"+s.hashCode());
+		String s1="Hello";
+		System.out.println("Object id:"+s.hashCode());
+		System.out.println(s1);
+		
+		String name="Monica";
+		name.concat("Chambani");
+		System.out.println(name);
+		StringBuffer myname=new StringBuffer("Monica");
+		myname.append("Chambani");
+		
+		System.out.println(myname);
+		
+		StringBuilder sb=new StringBuilder("Hindustan ");
+		sb.append("Computers Limited");
+		
+		System.out.println(myname+" is working in "+sb);
+		
+
+	}
+
+}
